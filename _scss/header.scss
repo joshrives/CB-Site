@@ -1,0 +1,254 @@
+.contact-bar {
+	position: static;
+	width: 100%;
+	background: #000;
+	color: #bbb;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	ul {
+		list-style: none;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+	li {
+		display: block;
+		float: left;
+		width: 50%;
+		font-size: 1em;
+		line-height: 1;
+		padding: 0.75em 0;
+			&:first-child {
+				border-right: 1px solid lighten(#000, 25%);
+			}
+	}
+	a {
+		padding: 0.75em;
+		color: $text;
+			&:hover {
+				color: $yellow;
+			}
+	}
+	@include bp(50) {
+		background: #000;
+		color: #bbb;
+		padding: 0.5em;
+		ul {
+			padding: 0;
+			text-align: right;
+		}
+		li {
+			display: inline-block;
+			float: none;
+			width: auto;
+			font-size: 0.75em;
+				&:first-child {
+					border-right: none;
+				}
+		}
+	}
+}
+.header-group {
+	padding: 1em 0;
+}
+.site-branding {
+	position: relative;
+	text-align: center;
+	left: 0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	@include bp(50) {
+		float: left;
+		width: 10%;
+	}
+}
+.logo {
+	img {
+		width: 5em;
+	}
+}
+.main-navigation {
+	position: absolute;
+	top: 2.6em;
+	left: -20em;
+	width: 20em;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	li {
+		border-bottom: 1px solid transparentize($circle-icon, 0.8);
+		&:last-child {
+			border: 0;
+		}
+	}
+	@include bp(50) {
+		float: left;
+		width: 90%;
+		position: static;
+		li {
+			display: inline-block;
+			border: 0;
+			border-right: 1px solid transparentize($circle-icon, 0.8);
+			padding: 0 0.5em;
+			&:first-child {
+				padding-left: 0;
+			}
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+	}
+	@include bp(62.5) {
+		li {
+			padding: 0 1.25em;
+		}
+	}
+}
+.primary-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid $gray-back;
+	a {
+		display: block;
+		color: #666;
+		font-size: 0.8125em;
+		padding: 0.75em 1em;
+		&:before {
+			font-family: 'cb';
+			background: $circle-icon;
+			border-radius: 50%;
+			display: inline-block;
+			color: #fff;
+			width: 1.4em;
+			height: 1.4em;
+			line-height: 1.4em;
+			font-size: 1.5em;
+			text-align: center;
+			margin: 0 1em 0 0;
+		}
+		&:hover {
+			color: #272727;
+			&:before {
+				background: #666;
+			}
+		}
+	}
+	@include bp(50) {
+		text-align: right;
+		border-right: none;
+		a {
+			padding: 0;
+			text-align: center;
+			&:before {
+				display: block;
+				font-size: 2.5em;
+				margin: 0 auto;
+			}
+		}
+	}
+	a[title="About"] {
+		&:before {
+			content: "\e605";
+		}
+	}
+	a[title="Electrical"] {
+		&:before {
+			content: "\e600";
+		}
+	}
+	a[title="Security"] {
+		&:before {
+			content: "\e606";
+		}
+	}
+	a[title="Automation"] {
+		&:before {
+			content: "\e603";
+		}
+	}
+	a[title="Services"] {
+		&:before {
+			content: "\e607";
+		}
+	}
+	a[title="Construction"] {
+		&:before {
+			content: "\e601";
+		}
+	}
+	a[title="Payments"] {
+		&:before {
+			content: "\e602";
+		}
+	}
+}
+.site-content {
+	position: relative;
+	left: 0;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.toggle-nav {
+	position: absolute;
+	top: 50%;
+	left: 1em;
+	margin-top: -1em;
+	color: $black;
+	border: 1px solid $black;
+	padding: 0 1em;
+	z-index: 10;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	&:hover {
+		background: $black;
+		color: $yellow;
+	}
+	@include bp(50) {
+		display: none;
+	}
+}
+.show-nav {
+	.contact-bar {
+		left: 0;
+	}
+	.main-navigation {
+		left: 0;
+	}
+	.site-branding {
+		left: 20em;
+	}
+	.site-content {
+		left: 20em;
+	}
+	.toggle-nav {
+		left: 21em;
+	}
+	@include bp(50) {
+		.contact-bar {
+			left: auto;
+		}
+		.main-navigation {
+			left: auto;
+		}
+		.site-branding {
+			left: auto;
+		}
+		.site-content {
+			left: auto;
+		}
+		.toggle-nav {
+			left: auto;
+		}
+	}
+}

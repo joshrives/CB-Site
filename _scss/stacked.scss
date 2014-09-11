@@ -1,0 +1,25 @@
+.stacked-list {
+	margin-bottom: 3em;
+	img {
+		display: block;
+		margin: 0 0 1em;
+	}
+	@include bp(44) {
+		img {
+			float: left;
+			width: 45%;
+			margin: 0 5% 0 0;
+		}
+	}
+}
+.stacked-content {
+	font-size: 0.875em;
+	h2 {
+		margin-top: 0;
+		color: #444;
+	}
+	@include bp(44) {
+		float: left;
+		width: 50%;
+	}
+}

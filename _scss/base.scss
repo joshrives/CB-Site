@@ -1,0 +1,89 @@
+/*!
+	Theme Name: CB
+	Theme URI: http://www.cbdallaselectrician.com/
+	Author: Cmd Tab
+	Author URI: http://cmdtab.co/
+	Description: Description
+	Version: 1.0
+	License: GNU General Public License
+	License URI: license.txt
+	Text Domain: homeword
+	Domain Path: /languages/
+*/
+@import "normalize";
+@import "bits";
+@import "var";
+
+html,body {
+	overflow-x:hidden;
+	-webkit-font-smoothing: antialiased;
+}
+body {
+	color: $text;
+	font:
+		0.875em/1.8
+		"open-sans","Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	@include bp(44) {
+		font-size: 1em;
+	}
+}
+@font-face {
+	font-family: 'cb';
+	src:url('_fonts/cb.eot?1wgp7y');
+	src:url('_fonts/cb.eot?#iefix1wgp7y') format('embedded-opentype'),
+		url('_fonts/cb.woff?1wgp7y') format('woff'),
+		url('_fonts/cb.ttf?1wgp7y') format('truetype'),
+		url('_fonts/cb.svg?1wgp7y#cb') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'cb';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	color: $yellow;
+	text-decoration: none;
+	&:hover {
+		color: darken($yellow, 10%);
+	}
+}
+hr {
+	height: 1px;
+	border: none;
+	background: $gray-back;
+	margin: 2em auto;
+	clear: both;
+}
+.btn {
+	@include button($yellow, #fff);
+}
+.simple-btn {
+	@include button($black, #fff);
+	padding: 0.25em 1.5em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1;
+}
+
+@import "modules";
+@import "header";
+@import "banner";
+@import "home-content";
+@import "schedule-bar";
+@import "footer";
+@import "stacked";
+@import "sbs";
+@import "content";

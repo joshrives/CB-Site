@@ -1,0 +1,21 @@
+/*Home Service List*/
+.home-services {
+	padding: 2em 0;
+}
+.home-service-list {
+	padding: 0 2em;
+	p {
+		font-size: 0.8125em;
+		text-align: justify;
+		margin-bottom: 0.5em;
+	}
+	a {
+		h3 {
+			color: $black;
+		}
+	}
+}
+.action {
+	font-size: 0.8125em;
+	font-weight: bold;
+}

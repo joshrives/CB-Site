@@ -1,0 +1,193 @@
+.site-footer {
+	background: $gray-back;
+	padding: 2em;
+	h3 {
+		font-weight: normal;
+		color: $black;
+		margin: 0 0 0.5em;
+	}
+	p {
+		font-size: 0.8125em;
+	}
+	hr {
+		background: darken($gray-back, 10%);
+		width: 55%;
+		margin: 0 auto 3em;
+	}
+	@include bp(50) {
+		padding: 2em 0;
+	}
+}
+.footer-company {
+	padding-bottom: 2em;
+	@include bp(50) {
+		float: left;
+		width: 45%;
+		margin-right: 5%;
+		&first-child {
+			margin-right: 0;
+		}
+	}
+}
+.footer-about {
+	padding-bottom: 2em;
+	@include bp(50) {
+		padding-bottom: 0;
+		float: left;
+		width: 65%;
+		margin-right: 5%;
+	}
+}
+.footer-contact {
+	clear: both;
+	.contact-icons {
+		font-size: 0.8125em;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			margin-bottom: 0.35em;
+		}
+		[class^="icon-"] {
+			font-size: 1.5em;
+			margin-right: 0.25em;
+		}
+	}
+	@include bp(50) {
+		clear: none;
+		float: left;
+		width: 30%;
+		text-align: left;
+		margin-right: 0;
+		.contact-icons {
+			li {
+				display: block;
+			}
+			[class^="icon-"] {
+				float: left;
+				width: 10%;
+				display: block;
+				font-size: 1.5em;
+				margin: 0;
+			}
+		}
+	}
+}
+.contact-content {
+	margin-right: 0.75em;
+	a {
+		color: $text;
+	}
+	a:hover {
+		color: $yellow;
+	}
+	@include bp(50) {
+		float: left;
+		width: 80%;
+		margin: 0;
+	}
+}
+.address-break {
+	margin-left: 0.5em;
+	@include bp(50) {
+		display: block;
+		margin: 0;
+	}
+
+}
+.social-icons {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	li {
+		display: inline-block;
+		padding-right: 0.25em;
+	}
+	a {
+		display: block;
+		background: #666;
+		height: 2em;
+		width: 2em;
+		text-align: center;
+		line-height: 2em;
+		font-size: 0.75em;
+		color: $gray-back;
+	}
+}
+.icon-facebook:before {
+	content: "\e608";
+}
+.icon-twitter:before {
+	content: "\e609";
+}
+.dealer-icon {
+	position: relative;
+	top: 0.45em;
+}
+.icon-office {
+	margin-top: 0.5em;
+	&:before {
+		content: "\e60a";
+
+	}
+}
+.icon-mail:before {
+	content: "\2709";
+}
+.icon-phone:before {
+	content: "\1f4de";
+}
+/*Footer Nav*/
+.footer-nav {
+	background: $black;
+	color: #fff;
+	padding: 1em 0;
+	text-transform: uppercase;
+	text-align: center;
+	a {
+		color: #fff;
+	}
+	/*@include bp(50) {
+		text-align: left;
+	}*/
+}
+.copyright {
+	font-size: 0.8125em;
+	margin: 0 auto;
+	padding: 0;
+	ul {
+		list-style: none;
+		width: 100%;
+	}
+	li {
+		display: inline-block;
+		width: 50%;
+	}
+}
+.footer-menu {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 1em 0;
+	font-size: 0.8125em;
+	li {
+		display: inline-block;
+		margin: 0 1.5em 1em 0;
+		&:last-child {
+			margin: 0;
+		}
+	}
+	a {
+		font-weight: bold;
+		&:hover {
+			color: $yellow;
+		}
+	}
+	/*@include bp(50) {
+		float: right;
+		li {
+			display: inline;
+			margin: 0 1.5em 0 0;
+		}
+	}*/
+}
