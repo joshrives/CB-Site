@@ -12,18 +12,18 @@
 	hr {
 		background: darken($gray-back, 10%);
 		width: 55%;
-		margin: 0 auto 3em;
+		margin: 1em auto 2em;
 	}
 	@include bp(50) {
-		padding: 2em 0;
+		padding: 2em 0 1em;
 	}
 }
 .footer-company {
 	padding-bottom: 2em;
 	@include bp(50) {
 		float: left;
-		width: 45%;
-		margin-right: 5%;
+		width: 20%;
+		margin-right: 7.5%;
 		&first-child {
 			margin-right: 0;
 		}
@@ -34,8 +34,8 @@
 	@include bp(50) {
 		padding-bottom: 0;
 		float: left;
-		width: 65%;
-		margin-right: 5%;
+		width: 37%;
+		margin-right: 7.5%;
 	}
 }
 .footer-contact {
@@ -56,7 +56,7 @@
 	@include bp(50) {
 		clear: none;
 		float: left;
-		width: 30%;
+		width: 28%;
 		text-align: left;
 		margin-right: 0;
 		.contact-icons {
@@ -71,6 +71,110 @@
 				margin: 0;
 			}
 		}
+	}
+}
+.footer-dealers {
+	width: 95%;
+	margin: 1em auto 0;
+	text-align: center;
+	h3 {
+		padding-bottom: 0.5em;
+	}
+	li {
+		display: inline-block;
+		padding: 1em 0;
+	}
+	@include bp(44) {
+		width: 100%;
+	}
+}
+.section-1 {
+	width: 18em;
+	margin: 0 auto;
+	padding: 0;
+	li {
+		width: 15%;
+	}
+	@include bp(50) {
+		width: 33.3%;
+		float: left;
+		text-align: right;
+		margin-right: 1em;
+		li {
+			width: 2.5em;
+		}
+	}
+	@include bp(50) {
+		margin-right: 0;
+	}
+}
+.section-2 {
+	width: 18em;
+	margin: 0 auto;
+	padding: 0;
+	li {
+		width: 35%;
+	}
+	@include bp(50) {
+		width: 33.3%;
+		float: left;
+		margin-right: 1em;
+		li {
+			width: 5em;
+		}
+	}
+	@include bp(50) {
+		margin-right: 0;
+	}
+}
+.section-3 {
+	width: 20em;
+	margin: 0 auto;
+	padding: 0;
+	li {
+		width: 35%;
+	}
+	@include bp(50) {
+		width: 33.3%;
+		float: left;
+		text-align: left;
+		li {
+			width: 5em;
+		}
+	}
+}
+.icon-1 {
+	width: 2.5em;
+	margin-right: 5em;
+	@include bp(50) {
+		margin-right: 2em;
+	}
+}
+.icon-2 {
+	width: 2.5em;
+}
+.icon-3 {
+	width: 5em;
+	margin-right: 1em;
+	@include bp(50) {
+		margin-right: 2em;
+	}
+}
+.icon-4 {
+	width: 5em;
+}
+.icon-5 {
+	width: 5em;
+	margin-right: 1em;
+	@include bp(50) {
+		margin-right: 2em;
+		width: 7.5em;
+	}
+}
+.icon-6 {
+	width: 5em;
+	@include bp(50) {
+		width: 7.5em;
 	}
 }
 .contact-content {
@@ -96,22 +200,23 @@
 
 }
 .social-icons {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	li {
-		display: inline-block;
-		padding-right: 0.25em;
-	}
+	display: inline-block;
+	padding-right: 0.25em;
 	a {
 		display: block;
-		background: #666;
-		height: 2em;
-		width: 2em;
+		background: #828282;
+		height: 2.25em;
+		width: 2.25em;
 		text-align: center;
 		line-height: 2em;
-		font-size: 0.75em;
-		color: $gray-back;
+		font-size: 0.65em;
+		color: #e6e6e6;
+		padding: 0.45em;
+		float: left;
+		margin: 0.5em 1.25em 0 0;
+		&:hover {
+			background: darken(#828282, 10%);
+		}
 	}
 }
 .icon-facebook:before {
@@ -119,10 +224,6 @@
 }
 .icon-twitter:before {
 	content: "\e609";
-}
-.dealer-icon {
-	position: relative;
-	top: 0.45em;
 }
 .icon-office {
 	margin-top: 0.5em;
