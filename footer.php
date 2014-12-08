@@ -73,7 +73,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/_js/production.min.js"></script>
 </body>
 </html>
