@@ -28,7 +28,7 @@
 			<ul class="wrap group">
 
 				<li><span class="icon-phone"></span><a href="tel:972-790-0707">972-790-0707</a></li>
-				<li><span class="icon-mail"></span><a href="mailto:info@cbeltx.com">Contact Us</a></li>
+				<li><span class="icon-mail"></span><a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">Contact Us</a></li>
 			</ul>
 		</div>
 		<div class="wrap group header-group">

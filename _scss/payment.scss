@@ -101,3 +101,6 @@
 .gform_button {
 	@include button($yellow, #fff);
 }
+textarea {
+	border: 1px solid $gray-back;
+}
