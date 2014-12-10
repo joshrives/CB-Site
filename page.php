@@ -42,10 +42,10 @@ get_header(); ?>
 
 				<?php else: ?>
 
-					<h3><?php the_field('default_header'); ?></h3>
-					<p><?php the_field('default_text'); ?></p>
+					<h3><?php the_field('default_header', 'options'); ?></h3>
+					<p><?php the_field('default_text', 'options'); ?></p>
 					<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn">
-						<?php the_field('default_button_text'); ?>
+						<?php the_field('default_button_text', 'options'); ?>
 					</a>
 
 				<?php endif; ?>
@@ -126,10 +126,10 @@ get_header(); ?>
 
 				<?php else: ?>
 
-					<h3><?php the_field('default_header'); ?></h3>
-					<p><?php the_field('default_text'); ?></p>
+					<h3><?php the_field('default_header', 'options'); ?></h3>
+					<p><?php the_field('default_text', 'options'); ?></p>
 					<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn">
-						<?php the_field('default_button_text'); ?>
+						<?php the_field('default_button_text', 'options'); ?>
 					</a>
 
 				<?php endif; ?>

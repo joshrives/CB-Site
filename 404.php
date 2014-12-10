@@ -22,14 +22,14 @@ get_header(); ?>
 	</header>
 	<div id="primary" class="full-section content-area">
 		<div class="wrap error-page">
-			<?php if( have_rows('404_page')): ?>
+			<?php if( have_rows('404_page', 'options')): ?>
 
 			<ul class="group error-list three-list">
 
-				<?php while( have_rows('404_page')) : the_row(); ?>
+				<?php while( have_rows('404_page', 'options')) : the_row(); ?>
 				<?php 
 
-					$error404 = get_sub_field('404_image');
+					$error404 = get_sub_field('404_image', 'options');
 
 					if( !empty($error404) ): ?>
 				<li>
