@@ -6,51 +6,56 @@
  */
 
 get_header(); ?>
+	<header class="full-section page-header">
+		<div class="wrap group">
+			<h1 class="entry-title">Oops!</h1>
+			<p class="entry-intro" style="margin-top: 1em;">This page does not exist. Please use the navigation bar above or return to the <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">home page</a>.</p>
+		</div>
+		<?php
+		$image = get_field('entry_banner');
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		if( !empty($image) ): ?>
+		<div class="page-banner">
+			<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+		</div>
+		<?php endif; ?>
+	</header>
+	<div id="primary" class="full-section content-area">
+		<div class="wrap error-page">
+			<?php if( have_rows('404_page')): ?>
 
-			<section class="error-404 not-found">
-				<header class="page-header">
-					<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'cb' ); ?></h1>
-				</header><!-- .page-header -->
+			<ul class="group error-list three-list">
 
-				<div class="page-content">
-					<p><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'cb' ); ?></p>
+				<?php while( have_rows('404_page')) : the_row(); ?>
+				<?php 
 
-					<?php get_search_form(); ?>
+					$error404 = get_sub_field('404_image');
 
-					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
+					if( !empty($error404) ): ?>
+				<li>
+					<img src="<?php echo $error404['url']; ?>" alt="<?php echo $error404['alt']; ?>" />
+					<a href="<?php the_sub_field('404_button_link', 'options'); ?>" class="btn error-button"><?php the_sub_field('404_button_text', 'options'); ?></a>	
+				</li>
+				<?php endif; ?>
+				<?php endwhile; ?>
 
-					<?php if ( cb_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
-					<div class="widget widget_categories">
-						<h2 class="widgettitle"><?php _e( 'Most Used Categories', 'cb' ); ?></h2>
-						<ul>
-						<?php
-							wp_list_categories( array(
-								'orderby'    => 'count',
-								'order'      => 'DESC',
-								'show_count' => 1,
-								'title_li'   => '',
-								'number'     => 10,
-							) );
-						?>
-						</ul>
-					</div><!-- .widget -->
-					<?php endif; ?>
+			</ul>
 
-					<?php
-						/* translators: %1$s: smiley */
-						$archive_content = '<p>' . sprintf( __( 'Try looking in the monthly archives. %1$s', 'cb' ), convert_smilies( ':)' ) ) . '</p>';
-						the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
-					?>
-
-					<?php the_widget( 'WP_Widget_Tag_Cloud' ); ?>
-
-				</div><!-- .page-content -->
-			</section><!-- .error-404 -->
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
+			<?php endif; ?>
+			<!-- <ul class="group error-list three-list">
+				<li>
+					<img src="<?php //the_field ( '404_image'); ?>" alt="<?php //get_field ( '404_image'); ?>" />
+					<a href="<?php //echo esc_url( home_url( '/services' ) ); ?>" class="btn error-button">More Services</a>
+				</li>
+				<li>
+					<img src="https://unsplash.imgix.net/photo-1414073875831-b47709631146?q=75&fm=jpg&s=731b6d5150eea8bafa63ae8194e72ebd" />
+					<a href="<?php //echo esc_url( home_url( '/payments' ) ); ?>" class="btn error-button">Make a Payment</a>
+				</li>
+				<li>
+					<img src="https://unsplash.imgix.net/photo-1414073875831-b47709631146?q=75&fm=jpg&s=731b6d5150eea8bafa63ae8194e72ebd" />
+					<a href="<?php //echo esc_url( home_url( '/contact' ) ); ?>" class="btn error-button">Contact Us</a>
+				</li>
+			</ul> -->
+		</div>
+	</div>
 <?php get_footer(); ?>

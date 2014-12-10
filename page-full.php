@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name: Full-Width
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -26,33 +27,11 @@ get_header(); ?>
 		<?php endif; ?>
 	</header>
 	<div id="primary" class="full-section content-area">
-		<?php if ( get_the_content() ) : ?>
-		<div class="wrap group entry-appointment">
-			<div class="entry-content two-third first">
+		<div class="sm-wrap group">
+			<div class="entry-content">
 				<?php the_content(); ?>
 			</div>
-			<div class="entry-contact third">
-				<?php if ( get_field('custom_sidebar') ): ?>
-
-					<h3><?php the_field('appointment_header'); ?></h3>
-					<p><?php the_field('appointment_text'); ?></p>
-					<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn">
-						<?php the_field('appointment_button'); ?>
-					</a>
-
-				<?php else: ?>
-
-					<h3><?php the_field('default_header'); ?></h3>
-					<p><?php the_field('default_text'); ?></p>
-					<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn">
-						<?php the_field('default_button_text'); ?>
-					</a>
-
-				<?php endif; ?>
-			</div>
 		</div>
-		<hr />
-		<?php endif; ?>
 		<div class="wrap group">
 			<?php
 			// check if the flexible content field has rows of data
@@ -113,27 +92,6 @@ get_header(); ?>
 			    </section>
 				<?php endwhile; ?>
 			</div><!--sub-content-->
-			<?php endif; ?>
-			<?php if ( !get_the_content() ) : ?>
-				<div class="entry-contact full-width-contact">
-				<?php if ( get_field('custom_sidebar') ): ?>
-
-					<h3><?php the_field('appointment_header'); ?></h3>
-					<p><?php the_field('appointment_text'); ?></p>
-					<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn">
-						<?php the_field('appointment_button'); ?>
-					</a>
-
-				<?php else: ?>
-
-					<h3><?php the_field('default_header'); ?></h3>
-					<p><?php the_field('default_text'); ?></p>
-					<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn">
-						<?php the_field('default_button_text'); ?>
-					</a>
-
-				<?php endif; ?>
-			</div>
 			<?php endif; ?>
 		</div>
 	</div><!-- #primary -->

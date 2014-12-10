@@ -12,6 +12,12 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 640; /* pixels */
 }
 
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page();
+	
+}
+
 if ( ! function_exists( 'cb_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -20,6 +26,7 @@ if ( ! function_exists( 'cb_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+
 function cb_setup() {
 
 	/*
