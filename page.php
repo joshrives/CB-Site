@@ -36,7 +36,7 @@ get_header(); ?>
 
 					<h3><?php the_field('appointment_header'); ?></h3>
 					<p><?php the_field('appointment_text'); ?></p>
-					<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn">
+					<a href="<?php the_field('appointment_link'); ?>" class="btn">
 						<?php the_field('appointment_button'); ?>
 					</a>
 

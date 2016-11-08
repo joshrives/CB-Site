@@ -38,9 +38,25 @@ get_header(); ?>
 	<div class="full-section schedule-bar">
 		<div class="wrap group">
 			<h3>For reliable, professional electrical service in the Dallas-Ft Worth and surrounding areas</h3>
-			<p>Call 972-790-0707 or <a href = "<?php echo esc_url( home_url( '/' ) ); ?>appointment/">schedule an appointment online</a></p>
+			<p>Call 972-790-0707 or <a href = "<?php echo esc_url( home_url( '/' ) ); ?>contact/">schedule an appointment online</a></p>
 		</div>
 	</div>
+	<div class="accolades full-section">
+		<ul>
+			<li>
+				<a href = "http://www.bbb.org/dallas/business-reviews/electricians/c-and-b-electric-in-grand-prairie-tx-50001318"><img src = "http://www.bbb.org/dallas/images/2/cbbb-badge-horz.png"></a>
+			<li>
+				<script type="text/javascript" src="http://www.angieslist.com/webbadge/insertwebbadge.js?bid=866aab39c19c6edf59892d658525055c"></script><script type="text/javascript">if (BADGEBOX) BADGEBOX.PlaceBadge();</script><noscript><div id="ssanslnk"><a href="http://www.angieslist.com/companylist/us/tx/grand-prairie/candb-electric-reviews-2654010.aspx" title="Angie's List Super Service Award winner">DALLAS/FT. WORTH electrician</a></div></noscript>
+			</li>
+			<li>
+				<a href = "http://www.angieslist.com/companylist/us/tx/grand-prairie/candb-electric-reviews-2654010.htm?cid=ssabadge"><img src = "<?php bloginfo('template_directory'); ?>/_i/angie.jpg">
+				</a>
+			</li>
+			<li>
+				<a href="http://www.bestpickreports.com/electricians/dallas/north-dallas/c-and-b-electric"><img src="http://www.bestpickreports.com/assets/logos/dal/candbelectric/bestpickreports.png" width="200" height="92" title="C &amp; B Electric | A Best Pick Certified Company" /></a><span class="assistive-text">Best Pick</span></a>
+			</li>
+		</ul>
+	</div><!--accolades-->
 	<?php if ( have_rows('home_page_product') ): ?> 
 	<div class="full-section home-services">
 		<div class="wrap group">

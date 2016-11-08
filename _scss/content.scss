@@ -65,10 +65,12 @@
 	padding: 2em 0;
 }
 .full-width-contact {
-	width: 75%;
 	margin: 2em auto;
 	p {
 		font-size: 1em;
+	}
+	@include bp(44) {
+		width: 75%;
 	}
 }
 .error-page {

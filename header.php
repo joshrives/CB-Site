@@ -14,7 +14,9 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+<link rel="icon"
+      type="image/png"
+      href="<?php bloginfo('template_directory'); ?>/_i/favicon.png">
 <?php wp_head(); ?>
 <script type="text/javascript" src="//use.typekit.net/tpz1sxs.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -28,7 +30,7 @@
 			<ul class="wrap group">
 
 				<li><span class="icon-phone"></span><a href="tel:972-790-0707">972-790-0707</a></li>
-				<li><span class="icon-mail"></span><a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">Contact Us</a></li>
+				<li><span class="icon-mail"></span><a href="<?php echo esc_url( home_url( '/contact' ) ); ?>?type=contact">Contact Us</a></li>
 			</ul>
 		</div>
 		<div class="wrap group header-group">

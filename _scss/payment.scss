@@ -106,3 +106,12 @@
 textarea {
 	border: 1px solid $gray-back;
 }
+.gform_confirmation_wrapper {
+	padding: 3em 0;
+}
+.form-note {
+	text-align: center;
+	background: $gray-back;
+	padding: 0.5em 1em;
+	margin: 1em auto !important;
+}

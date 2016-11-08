@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18270",
+"creatorBuild": "19137",
 "files": {
 	"\/404.php": {
 		"fileType": 8192,
@@ -10,6 +10,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_i\/angie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7941,
+		"inputAbbreviatedPath": "\/_i\/angie.jpg",
+		"outputAbbreviatedPath": "\/_i\/angie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_i\/banner.jpg": {
 		"fileType": 16384,
@@ -62,6 +73,17 @@
 		"initialSize": 163429,
 		"inputAbbreviatedPath": "\/_i\/DT.jpg",
 		"outputAbbreviatedPath": "\/_i\/DT.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_i\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1948,
+		"inputAbbreviatedPath": "\/_i\/favicon.png",
+		"outputAbbreviatedPath": "\/_i\/favicon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -553,17 +575,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/ansi-styles\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/ansi-styles\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/ansi-styles\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/ansi-styles\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/ansi-styles\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/ansi-styles\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/has-color\/index.js": {
 		"fileType": 64,
@@ -576,17 +618,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/has-color\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/has-color\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/has-color\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/has-color\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/has-color\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/has-color\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/strip-ansi\/cli.js": {
 		"fileType": 64,
@@ -610,41 +672,101 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/strip-ansi\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/strip-ansi\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/strip-ansi\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/strip-ansi\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/strip-ansi\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/node_modules\/strip-ansi\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/node_modules\/chalk\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt-contrib-concat\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-concat\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-concat\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-concat\/tasks\/concat.js": {
 		"fileType": 64,
@@ -669,52 +791,88 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-sass\/CONTRIBUTING.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/CONTRIBUTING.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/CONTRIBUTING.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-sass\/docs\/sass-examples.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/docs\/sass-examples.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/docs\/sass-examples.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-sass\/docs\/sass-options.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/docs\/sass-options.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/docs\/sass-options.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-sass\/docs\/sass-overview.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/docs\/sass-overview.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/docs\/sass-overview.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-sass\/Gruntfile.js": {
 		"fileType": 64,
@@ -727,6 +885,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-sass\/node_modules\/async\/component.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/async\/component.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/async\/component-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/async\/lib\/async.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -738,17 +907,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-sass\/node_modules\/async\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/async\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/async\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/async\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/async\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/async\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/index.js": {
 		"fileType": 64,
@@ -772,17 +961,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/ansi-styles\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/ansi-styles\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/ansi-styles\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/ansi-styles\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/ansi-styles\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/ansi-styles\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/has-color\/index.js": {
 		"fileType": 64,
@@ -795,17 +1004,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/has-color\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/has-color\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/has-color\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/has-color\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/has-color\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/has-color\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/strip-ansi\/cli.js": {
 		"fileType": 64,
@@ -829,29 +1058,69 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/strip-ansi\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/strip-ansi\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/strip-ansi\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/strip-ansi\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/strip-ansi\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/node_modules\/strip-ansi\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/chalk\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/dargs\/dargs.js": {
 		"fileType": 64,
@@ -864,29 +1133,69 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-sass\/node_modules\/dargs\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/dargs\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/dargs\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/dargs\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/dargs\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/dargs\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt-contrib-sass\/node_modules\/which\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/which\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/which\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/which\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/which\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/which\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/which\/which.js": {
 		"fileType": 64,
@@ -910,29 +1219,69 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-sass\/node_modules\/win-spawn\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/win-spawn\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/win-spawn\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-sass\/node_modules\/win-spawn\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/win-spawn\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/node_modules\/win-spawn\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt-contrib-sass\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-sass\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-sass\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-sass\/tasks\/sass.js": {
 		"fileType": 64,
@@ -967,17 +1316,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/ansi-styles\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/ansi-styles\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/ansi-styles\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/ansi-styles\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/ansi-styles\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/ansi-styles\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/has-color\/index.js": {
 		"fileType": 64,
@@ -990,17 +1359,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/has-color\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/has-color\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/has-color\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/has-color\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/has-color\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/has-color\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/strip-ansi\/cli.js": {
 		"fileType": 64,
@@ -1024,29 +1413,69 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/strip-ansi\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/strip-ansi\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/strip-ansi\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/strip-ansi\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/strip-ansi\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/node_modules\/strip-ansi\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/chalk\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/index.js": {
 		"fileType": 64,
@@ -1114,17 +1543,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/inherits\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/inherits\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/inherits\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/inherits\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/inherits\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/inherits\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/inherits\/test.js": {
 		"fileType": 64,
@@ -1214,17 +1663,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/core-util-is\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/core-util-is\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/core-util-is\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/core-util-is\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/core-util-is\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/core-util-is\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/core-util-is\/util.js": {
 		"fileType": 64,
@@ -1248,6 +1717,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/isarray\/component.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/isarray\/component.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/isarray\/component-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/isarray\/index.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1259,17 +1739,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/isarray\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/isarray\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/isarray\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/isarray\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/isarray\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/isarray\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/string_decoder\/index.js": {
 		"fileType": 64,
@@ -1282,17 +1782,48 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/string_decoder\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/string_decoder\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/string_decoder\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/string_decoder\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/string_decoder\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/node_modules\/string_decoder\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/passthrough.js": {
 		"fileType": 64,
@@ -1317,16 +1848,25 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/readable-stream\/transform.js": {
 		"fileType": 64,
@@ -1372,6 +1912,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/typedarray\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/typedarray\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/typedarray\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/node_modules\/typedarray\/test\/server\/undef_globals.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1394,17 +1945,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/concat-stream\/test\/array.js": {
 		"fileType": 64,
@@ -1668,6 +2239,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/node_modules\/deep-equal\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/node_modules\/deep-equal\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/node_modules\/deep-equal\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/node_modules\/deep-equal\/test\/cmp.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1700,6 +2282,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/node_modules\/defined\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/node_modules\/defined\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/node_modules\/defined\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/node_modules\/defined\/test\/def.js": {
 		"fileType": 64,
@@ -1745,6 +2338,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/node_modules\/jsonify\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/node_modules\/jsonify\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/node_modules\/jsonify\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/node_modules\/jsonify\/test\/parse.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1766,6 +2370,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/node_modules\/tape\/test\/array.js": {
 		"fileType": 64,
@@ -1954,17 +2569,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/node_modules\/zlib-browserify\/test\/zlib.test.js": {
 		"fileType": 64,
@@ -1988,17 +2623,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/gzip-size\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/pretty-bytes\/cli.js": {
 		"fileType": 64,
@@ -2010,6 +2665,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/pretty-bytes\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/pretty-bytes\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/pretty-bytes\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/pretty-bytes\/pretty-bytes.js": {
 		"fileType": 64,
@@ -2023,28 +2689,57 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/pretty-bytes\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/pretty-bytes\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/node_modules\/pretty-bytes\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/maxmin\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/lib\/ast.js": {
 		"fileType": 64,
@@ -2145,6 +2840,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/async\/component.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/async\/component.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/async\/component-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/async\/lib\/async.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -2156,17 +2862,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/async\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/async\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/async\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/async\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/async\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/async\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/optimist\/example\/bool.js": {
 		"fileType": 64,
@@ -2377,6 +3103,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/optimist\/node_modules\/wordwrap\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/optimist\/node_modules\/wordwrap\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/optimist\/node_modules\/wordwrap\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/optimist\/node_modules\/wordwrap\/test\/break.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -2398,6 +3135,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/optimist\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/optimist\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/optimist\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/optimist\/test\/_.js": {
 		"fileType": 64,
@@ -2510,16 +3258,25 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/CHANGELOG.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/CHANGELOG.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/CHANGELOG.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/lib\/source-map.js": {
 		"fileType": 64,
@@ -2653,29 +3410,69 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/node_modules\/amdefine\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/node_modules\/amdefine\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/node_modules\/amdefine\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/node_modules\/amdefine\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/node_modules\/amdefine\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/node_modules\/amdefine\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/source-map\/test\/run-tests.js": {
 		"fileType": 64,
@@ -2820,17 +3617,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/uglify-to-browserify\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/uglify-to-browserify\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/uglify-to-browserify\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/uglify-to-browserify\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/uglify-to-browserify\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/uglify-to-browserify\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/node_modules\/uglify-to-browserify\/test\/index.js": {
 		"fileType": 64,
@@ -2843,17 +3660,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/node_modules\/uglify-js\/test\/compress\/arrays.js": {
 		"fileType": 64,
@@ -3130,17 +3967,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-uglify\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-uglify\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-uglify\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-uglify\/tasks\/lib\/uglify.js": {
 		"fileType": 64,
@@ -3164,6 +4021,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/async\/component.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/async\/component.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/async\/component-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/async\/lib\/async.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3175,17 +4043,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/async\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/async\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/async\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/async\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/async\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/async\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/lib\/gaze.js": {
 		"fileType": 64,
@@ -3275,17 +4163,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/graceful-fs\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/graceful-fs\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/graceful-fs\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/graceful-fs\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/graceful-fs\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/graceful-fs\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/graceful-fs\/test\/open.js": {
 		"fileType": 64,
@@ -3320,29 +4228,69 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/inherits\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/inherits\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/inherits\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/inherits\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/inherits\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/node_modules\/inherits\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/test\/00-setup.js": {
 		"fileType": 64,
@@ -3365,6 +4313,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/test\/bash-results.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/test\/bash-results.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/test\/bash-results-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/glob\/test\/cwd-test.js": {
 		"fileType": 64,
@@ -3509,17 +4468,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/lodash\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/lodash\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/lodash\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/lodash\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/lodash\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/lodash\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/minimatch.js": {
 		"fileType": 64,
@@ -3543,17 +4522,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/lru-cache\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/lru-cache\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/lru-cache\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/lru-cache\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/lru-cache\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/lru-cache\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/lru-cache\/test\/basic.js": {
 		"fileType": 64,
@@ -3599,17 +4598,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/sigmund\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/sigmund\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/sigmund\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/sigmund\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/sigmund\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/sigmund\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/node_modules\/sigmund\/sigmund.js": {
 		"fileType": 64,
@@ -3633,17 +4652,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/node_modules\/minimatch\/test\/basic.js": {
 		"fileType": 64,
@@ -3700,17 +4739,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/test\/fixtures\/expand\/css\/baz.css": {
 		"fileType": 16,
@@ -3753,16 +4812,25 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/test\/fixtures\/expand\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/test\/fixtures\/expand\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/test\/fixtures\/expand\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/node_modules\/globule\/test\/globule_test.js": {
 		"fileType": 64,
@@ -3775,17 +4843,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/gaze\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/lodash\/dist\/lodash.compat.js": {
 		"fileType": 64,
@@ -3864,17 +4952,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/lodash\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/lodash\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/lodash\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/lodash\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/lodash\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/lodash\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/lib\/client.js": {
 		"fileType": 64,
@@ -3953,17 +5061,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/debug\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/debug\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/debug\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/debug\/Readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/debug\/Readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/debug\/Readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/faye-websocket\/examples\/autobahn_client.js": {
 		"fileType": 64,
@@ -4137,6 +5265,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/faye-websocket\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/faye-websocket\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/faye-websocket\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/faye-websocket\/spec\/faye\/websocket\/client_spec.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -4270,28 +5409,57 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/node_modules\/abbrev\/CONTRIBUTING.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/node_modules\/abbrev\/CONTRIBUTING.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/node_modules\/abbrev\/CONTRIBUTING.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/node_modules\/abbrev\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/node_modules\/abbrev\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/node_modules\/abbrev\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/node_modules\/abbrev\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/node_modules\/abbrev\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/node_modules\/abbrev\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/node_modules\/abbrev\/test.js": {
 		"fileType": 64,
@@ -4304,29 +5472,69 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/node_modules\/nopt\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/noptify\/test\/api.js": {
 		"fileType": 64,
@@ -4416,6 +5624,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/component.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/component.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/component-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/examples.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -4428,16 +5647,25 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/History.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/History.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/History.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/index.js": {
 		"fileType": 64,
@@ -4450,17 +5678,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/Readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/Readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/Readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/node_modules\/qs\/test\/browser\/expect.js": {
 		"fileType": 64,
@@ -4555,17 +5803,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/node_modules\/tiny-lr-fork\/tasks\/tiny-lr.js": {
 		"fileType": 64,
@@ -4611,17 +5879,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt-contrib-watch\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt-contrib-watch\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt-contrib-watch\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt-contrib-watch\/tasks\/lib\/livereload.js": {
 		"fileType": 64,
@@ -4843,17 +6131,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/async\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/async\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/async\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/async\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/async\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/async\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/coffee-script\/lib\/coffee-script\/browser.js": {
 		"fileType": 64,
@@ -5009,6 +6317,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/coffee-script\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/coffee-script\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/coffee-script\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/colors\/colors.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -5040,17 +6359,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/colors\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/colors\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/colors\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/colors\/ReadMe.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/colors\/ReadMe.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/colors\/ReadMe.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/colors\/test.js": {
 		"fileType": 64,
@@ -5096,17 +6435,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/dateformat\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/dateformat\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/dateformat\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/dateformat\/Readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/dateformat\/Readme.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/dateformat\/Readme.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/dateformat\/test\/test_weekofyear.js": {
 		"fileType": 64,
@@ -5141,17 +6500,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/eventemitter2\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/eventemitter2\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/eventemitter2\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/eventemitter2\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/eventemitter2\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/eventemitter2\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/exit\/Gruntfile.js": {
 		"fileType": 64,
@@ -5175,17 +6554,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/exit\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/exit\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/exit\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/exit\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/exit\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/exit\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/exit\/test\/exit_test.js": {
 		"fileType": 64,
@@ -5297,17 +6696,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/node_modules\/inherits\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/node_modules\/inherits\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/node_modules\/inherits\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/node_modules\/inherits\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/node_modules\/inherits\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/node_modules\/inherits\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/node_modules\/inherits\/test.js": {
 		"fileType": 64,
@@ -5320,17 +6739,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/test\/00-setup.js": {
 		"fileType": 64,
@@ -5353,6 +6792,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/test\/bash-results.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/test\/bash-results.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/test\/bash-results-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/glob\/test\/cwd-test.js": {
 		"fileType": 64,
@@ -5552,29 +7002,69 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/lodash\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/lodash\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/lodash\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/lodash\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/lodash\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/node_modules\/lodash\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt\/node_modules\/findup-sync\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt\/node_modules\/findup-sync\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/findup-sync\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/findup-sync\/test\/findup-sync_test.js": {
 		"fileType": 64,
@@ -5609,17 +7099,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/getobject\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/getobject\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/getobject\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/getobject\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/getobject\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/getobject\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/getobject\/test\/namespace_test.js": {
 		"fileType": 64,
@@ -5676,17 +7186,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/glob\/node_modules\/graceful-fs\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/node_modules\/graceful-fs\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/node_modules\/graceful-fs\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/glob\/node_modules\/graceful-fs\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/node_modules\/graceful-fs\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/node_modules\/graceful-fs\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/glob\/node_modules\/graceful-fs\/test\/open.js": {
 		"fileType": 64,
@@ -5721,29 +7251,69 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/glob\/node_modules\/inherits\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/node_modules\/inherits\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/node_modules\/inherits\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/glob\/node_modules\/inherits\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/node_modules\/inherits\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/node_modules\/inherits\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt\/node_modules\/glob\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt\/node_modules\/glob\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/glob\/test\/00-setup.js": {
 		"fileType": 64,
@@ -5766,6 +7336,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/node_modules\/grunt\/node_modules\/glob\/test\/bash-results.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/test\/bash-results.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/glob\/test\/bash-results-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt\/node_modules\/glob\/test\/cwd-test.js": {
 		"fileType": 64,
@@ -5866,17 +7447,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/grunt-legacy-util\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/grunt-legacy-util\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/grunt-legacy-util\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/grunt-legacy-util\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/grunt-legacy-util\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/grunt-legacy-util\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/grunt-legacy-util\/test\/fixtures\/Gruntfile-execArgv-child.js": {
 		"fileType": 64,
@@ -5999,6 +7600,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/hooker\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/hooker\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/hooker\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/hooker\/parent.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -6011,16 +7623,25 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/node_modules\/grunt\/node_modules\/hooker\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/hooker\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/hooker\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/hooker\/test\/hooker_test.js": {
 		"fileType": 64,
@@ -6121,17 +7742,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/iconv-lite\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/iconv-lite\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/iconv-lite\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/iconv-lite\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/iconv-lite\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/iconv-lite\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/iconv-lite\/test\/big5-test.js": {
 		"fileType": 64,
@@ -6243,6 +7884,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/js-yaml\/examples\/dumper.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/examples\/dumper.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/examples\/dumper-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/examples\/sample_document.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -6255,16 +7907,25 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/HISTORY.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/HISTORY.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/HISTORY.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/index.js": {
 		"fileType": 64,
@@ -6696,16 +8357,25 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/HISTORY.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/HISTORY.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/HISTORY.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/index.js": {
 		"fileType": 64,
@@ -6949,6 +8619,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore.string\/component.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore.string\/component.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore.string\/component-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore.string\/dist\/underscore.string.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -6970,6 +8651,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore.string\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore.string\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore.string\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore.string\/test\/run-qunit.js": {
 		"fileType": 64,
@@ -7173,16 +8865,25 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore\/CONTRIBUTING.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore\/CONTRIBUTING.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore\/CONTRIBUTING.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore\/index.html": {
 		"fileType": 8192,
@@ -7204,17 +8905,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/node_modules\/underscore\/underscore-min.js": {
 		"fileType": 64,
@@ -7238,17 +8959,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/argparse\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/esprima\/bin\/esparse.js": {
 		"fileType": 64,
@@ -7283,17 +9024,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/esprima\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/esprima\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/esprima\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/esprima\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/esprima\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/esprima\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/node_modules\/esprima\/test\/compat.js": {
 		"fileType": 64,
@@ -7350,17 +9111,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/js-yaml\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/js-yaml\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/js-yaml\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/lodash\/lodash.js": {
 		"fileType": 64,
@@ -7406,17 +9187,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/lodash\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/lodash\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/lodash\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/lodash\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/lodash\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/lodash\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/minimatch\/minimatch.js": {
 		"fileType": 64,
@@ -7440,17 +9241,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/lru-cache\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/lru-cache\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/lru-cache\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/lru-cache\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/lru-cache\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/lru-cache\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/lru-cache\/test\/basic.js": {
 		"fileType": 64,
@@ -7496,17 +9317,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/sigmund\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/sigmund\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/sigmund\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/sigmund\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/sigmund\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/sigmund\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/minimatch\/node_modules\/sigmund\/sigmund.js": {
 		"fileType": 64,
@@ -7530,17 +9371,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/minimatch\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/minimatch\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/minimatch\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/minimatch\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/minimatch\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/minimatch\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/minimatch\/test\/basic.js": {
 		"fileType": 64,
@@ -7642,28 +9503,57 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/node_modules\/grunt\/node_modules\/nopt\/node_modules\/abbrev\/CONTRIBUTING.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/nopt\/node_modules\/abbrev\/CONTRIBUTING.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/nopt\/node_modules\/abbrev\/CONTRIBUTING.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/node_modules\/grunt\/node_modules\/nopt\/node_modules\/abbrev\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/nopt\/node_modules\/abbrev\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/nopt\/node_modules\/abbrev\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt\/node_modules\/nopt\/node_modules\/abbrev\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/nopt\/node_modules\/abbrev\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/nopt\/node_modules\/abbrev\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/nopt\/node_modules\/abbrev\/test.js": {
 		"fileType": 64,
@@ -7676,17 +9566,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/nopt\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/nopt\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/nopt\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/nopt\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/nopt\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/nopt\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/rimraf\/bin.js": {
 		"fileType": 64,
@@ -7699,17 +9609,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/rimraf\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/rimraf\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/rimraf\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/rimraf\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/rimraf\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/rimraf\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/rimraf\/rimraf.js": {
 		"fileType": 64,
@@ -7765,6 +9695,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/node_modules\/grunt\/node_modules\/underscore.string\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/underscore.string\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/underscore.string\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/node_modules\/grunt\/node_modules\/underscore.string\/test\/run-qunit.js": {
 		"fileType": 64,
@@ -7987,17 +9928,37 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/node_modules\/which\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/which\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/which\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/node_modules\/which\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/which\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/node_modules\/which\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/node_modules\/grunt\/node_modules\/which\/which.js": {
 		"fileType": 64,
@@ -8010,15 +9971,55 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/node_modules\/grunt\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/node_modules\/grunt\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/node_modules\/grunt\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/node_modules\/grunt\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/node_modules\/grunt\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/node_modules\/grunt\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/page-full.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-full.php",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -8052,16 +10053,25 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/rtl.css": {
 		"fileType": 16,
@@ -8122,7 +10132,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Tristan Swire",
+"lastSavedByUser": "Josh Rives",
 "manualImportLinks": {
 	},
 "projectAttributes": {
@@ -8168,6 +10178,10 @@
 			},
 		"empty_constructor_needs_parens": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"indentation": {
@@ -8218,8 +10232,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -8228,6 +10250,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {
@@ -8260,6 +10286,10 @@
 			},
 		"space_operators": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
 			"flagValue": -1
 			}
 		},
@@ -8317,6 +10347,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"camelcase": {
 			"active": 0,
 			"flagValue": -1
@@ -8339,6 +10373,10 @@
 			},
 		"dojo": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -8377,6 +10415,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"globalstrict": {
 			"active": 0,
 			"flagValue": -1
@@ -8390,6 +10432,10 @@
 			"flagValue": 4
 			},
 		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -8437,6 +10483,10 @@
 			"active": 0,
 			"flagValue": 4
 			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"mootools": {
 			"active": 0,
 			"flagValue": -1
@@ -8455,6 +10505,10 @@
 			},
 		"noarg": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"node": {
@@ -8502,6 +10556,10 @@
 			"flagValue": -1
 			},
 		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -8553,6 +10611,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"withstmt": {
 			"active": 0,
 			"flagValue": -1
@@ -8571,10 +10633,6 @@
 			}
 		},
 	"jsLintFlags2": {
-		"ass": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -8583,15 +10641,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"closure": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"continue": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"debug": {
+		"couch": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -8599,75 +10649,27 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"eqeq": {
+		"es6": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"evil": {
+		"eval": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"forin": {
+		"for": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"indent": {
-			"active": 0,
-			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
-		"newcap": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"nomen": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"properties": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"regexp": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"rhino": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sloppy": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"stupid": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sub": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"todo": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"unparam": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"vars": {
+		"this": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -8676,6 +10678,14 @@
 			"flagValue": -1
 			}
 		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
 	"kitAutoOutputPathEnabled": 1,
 	"kitAutoOutputPathFilenamePattern": "*.html",
 	"kitAutoOutputPathRelativePath": "",
@@ -8703,9 +10713,18 @@
 	"markdownAutoOutputPathReplace1": "",
 	"markdownAutoOutputPathReplace2": "",
 	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
 	"markdownEnableFootnotes": 0,
-	"markdownEnableSmartyPants": 1,
-	"markdownExpandTabs": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
 	"reloadFileURLs": 0,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
@@ -8729,6 +10748,7 @@
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
+	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
@@ -8750,15 +10770,22 @@
 	"typescriptAutoOutputPathStyle": 2,
 	"typescriptCreateDeclarationFile": 0,
 	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptNoResolve": 0,
+	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -8791,6 +10818,10 @@
 			"flagValue": -1
 			},
 		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -8834,6 +10865,14 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -8846,8 +10885,16 @@
 			"active": 1,
 			"flagValue": 32000
 			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"properties": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {
