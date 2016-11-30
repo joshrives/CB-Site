@@ -44,16 +44,23 @@ get_header(); ?>
 	<div class="accolades full-section">
 		<ul>
 			<li>
-				<a href = "http://www.bbb.org/dallas/business-reviews/electricians/c-and-b-electric-in-grand-prairie-tx-50001318"><img src = "http://www.bbb.org/dallas/images/2/cbbb-badge-horz.png"></a>
+				<a href = "http://www.bbb.org/dallas/business-reviews/electricians/c-and-b-electric-in-grand-prairie-tx-50001318">
+					<img src = "<?php bloginfo('template_directory'); ?>/_i/cbbb.png">
+				</a>
 			<li>
-				<script type="text/javascript" src="http://www.angieslist.com/webbadge/insertwebbadge.js?bid=866aab39c19c6edf59892d658525055c"></script><script type="text/javascript">if (BADGEBOX) BADGEBOX.PlaceBadge();</script><noscript><div id="ssanslnk"><a href="http://www.angieslist.com/companylist/us/tx/grand-prairie/candb-electric-reviews-2654010.aspx" title="Angie's List Super Service Award winner">DALLAS/FT. WORTH electrician</a></div></noscript>
-			</li>
-			<li>
-				<a href = "http://www.angieslist.com/companylist/us/tx/grand-prairie/candb-electric-reviews-2654010.htm?cid=ssabadge"><img src = "<?php bloginfo('template_directory'); ?>/_i/angie.jpg">
+				<a href="http://www.angieslist.com/companylist/us/tx/grand-prairie/candb-electric-reviews-2654010.aspx" title="Angie's List Super Service Award winner">
+					<img src = "<?php bloginfo('template_directory'); ?>/_i/angies.png">
 				</a>
 			</li>
 			<li>
-				<a href="http://www.bestpickreports.com/electricians/dallas/north-dallas/c-and-b-electric"><img src="http://www.bestpickreports.com/assets/logos/dal/candbelectric/bestpickreports.png" width="200" height="92" title="C &amp; B Electric | A Best Pick Certified Company" /></a><span class="assistive-text">Best Pick</span></a>
+				<a href = "http://www.angieslist.com/companylist/us/tx/grand-prairie/candb-electric-reviews-2654010.htm?cid=ssabadge">
+					<img src = "<?php bloginfo('template_directory'); ?>/_i/angie.jpg">
+				</a>
+			</li>
+			<li>
+				<a href="http://www.bestpickreports.com/electricians/dallas/north-dallas/c-and-b-electric">
+					<img src="<?php bloginfo('template_directory'); ?>/_i/bestpickreports.png" width="200" height="92" title="C &amp; B Electric | A Best Pick Certified Company" /></a><span class="assistive-text">Best Pick</span>
+				</a>
 			</li>
 		</ul>
 	</div><!--accolades-->
